@@ -1,0 +1,80 @@
+body {
+    font-family: Sans-serif, Verdana;
+    background-color: #fffbff;
+    text-align: center;
+}
+
+.addContContainer {
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    padding: 1em;
+    background-color: rgb(65, 178, 204);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5%;
+    border: 3px solid #000000;
+}
+
+.contactForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    margin: 0.5em;
+}
+
+button {
+    padding: 0.75em;
+    background-color: #eceeef;
+    color: rgb(91, 90, 90);
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    width: 20%;
+}
+
+.error-message {
+    color: rgb(253, 0, 0);
+    display: none;
+}
+
+.sort{
+    cursor: pointer;
+}
+
+.sort:hover{
+    background-color: #97f671;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 75%;
+    padding: 2em;
+    margin: 0 auto;
+  }
+  
+  th {
+    text-align: center;
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0); 
+    width: 33.33%; 
+    padding: 10px; 
+    border: 1px solid #000000;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #f2f2f2;
+    border: 1px solid #000000;
+  }
+
+  tr:nth-child(even) {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+  }
