@@ -1,0 +1,72 @@
+.search-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.user_container {
+    margin-right: 30px;
+    border-right: 1px solid black; 
+    padding-right: 30px; 
+}
+
+.user_container > div {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.rep-container {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.header {
+    text-decoration: underline;
+}
+
+.right_container {
+    max-height: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    position: relative;
+}
+
+.repo-content {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+.headings {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+body {
+    background-color: rgb(164, 241, 252);
+}
+
+.title {
+    text-align: center;
+}
+
+.search-wrapper input {
+    padding: 5px;
+    width: 12%;
+    border: 1px solid black;
+}
+
+.search-wrapper button{
+    border-radius: 13px;
+    border: 1px solid black;
+    margin-left: 20px;
+    padding: 5px 10px;
+}
+
+.wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
