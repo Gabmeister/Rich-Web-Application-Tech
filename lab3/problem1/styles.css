@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.note-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.note{
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note-text{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.note-controls{
+    display: flex;
+}
+
+button{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.add-note{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer rxjs</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="script.js"></script>
+    <script src="node_modules/rxjs/dist/bundles/rxjs.umd.min.js"></script>
+</head>
+<body>
+    <div class="input_div">
+        <input class = "input" id="hours" type="number" placeholder="Hrs" min="0">
+        <span>:</span>
+        <input class = "input" id="minutes" type="number" placeholder="Mins" min="0">
+        <span>:</span>
+        <input class = "input" id="seconds" type="number" placeholder="Secs" min="0"> 
+    </div>
+    <button id="btn_start">Start Timer</button>
+    <div id="timer" class="timer"></div>
+    
+</body>
+</html>
